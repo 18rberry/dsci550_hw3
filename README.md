@@ -10,7 +10,7 @@ Below is a detailed overview of each visualization provided in this repository, 
 
 #### [Haunted Places Visualizations Website](https://github.com/18rberry/dsci550_hw3/blob/main/website_visualizations.html)
 
-- [dsci550_haunted_places_visualizations.html:](https://github.com/18rberry/dsci550_hw3/blob/main/website_visualizations.html) The main visualization page offering a holistic view of Bigfoot sightings data.
+- [dsci550_haunted_places_visualizations.html:](https://github.com/18rberry/dsci550_hw3/blob/main/website_visualizations.html](https://github.com/18rberry/dsci550_hw3/blob/main/generated_4215.png) The main visualization page offering a holistic view of Bigfoot sightings data.
 
 #### Individual Visualization Descriptions: 
 
