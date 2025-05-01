@@ -8,8 +8,7 @@ This repository is dedicated to the exploration and visualization of Bigfoot sig
 
 Below is a detailed overview of each visualization provided in this repository, including descriptions and direct links to view them online.
 
-#### [Haunted Places Visualizations Website](https://github.com/18rberry/dsci550_hw3/blob/main/website_visualizations.html)
-
+#### [Haunted Places Visualizations Website][(https://18rberry.github.io/dsci550_hw3/)]
 - [dsci550_haunted_places_visualizations.html:](https://github.com/18rberry/dsci550_hw3/blob/main/website_visualizations.html](https://github.com/18rberry/dsci550_hw3/blob/main/generated_4215.png) The main visualization page offering a holistic view of Bigfoot sightings data.
 
 #### Individual Visualization Descriptions: 
