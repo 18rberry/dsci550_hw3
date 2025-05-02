@@ -266,24 +266,19 @@
 		// Object holding details and insights for each visualization
         var insights = {
             'hauntedplaces_heatmap_final': {
-                detail: "This heatmap illustrates the geographical distribution of haunted place reportings across the US." 
-                // insight: "The frequent mention of 'night' and 'black' in conjunction with 'forest' and 'woods' in Bigfoot sightings suggests that these encounters often occur in low-light conditions within heavy vegetation areas. This combination of darkness and dense foliage might affect the reliability of sightings, potentially explaining some of the ambiguity surrounding the existence of Bigfoot."
+                detail: "This heatmap illustrates the geographical distribution of haunted place reportings across the US."
             },
             'sightings_time_apparition_bargraph_final': {
                 detail: 'This Stacked Barchart shows the haunted places sightings over time of day by apparition type.'
-                // insight: "Bigfoot sightings are not evenly distributed across the U.S., with notable concentrations in the Pacific Northwest and Appalachia. This pattern suggests that environmental factors, such as dense forests, mountainous terrain, and extensive networks of caves or caverns, play a significant role in sightings. The 'Caves and Karst Network in the U.S.' map shows diverse cave types, including solution caves, which are commonly found in the Appalachians, and lava caves, prevalent in the volcanic terrains of the Pacific Northwest. The presence of such natural features may provide the ideal conditions or habitats associated with these mysterious sightings."
             },
             'evidence_treemap': {
-                detail: 'This line and bar chart illustrates the number of Bigfoot sightings over time, categorized by the phase of the moon. It seems to suggest no clear correlation between the moon phases and the frequency of sightings. The sightings have increased over the years, peaking around the early 2000s before declining.',
-                // insight: "The chart's peak in Bigfoot sightings during the early 2000s could correlate with the proliferation of personal devices like smartphones, enabling on-the-spot documentation and reporting. As traveling became more convenient and frequent, the likelihood of encounters in Bigfoot's alleged territories increased, potentially contributing to the rise in reports. However, the decline in sightings post-2020 may reflect reduced travel during the COVID-19 pandemic, when lockdowns and social distancing likely limited excursions into wilderness areas where such sightings are typically reported. Despite this fluctuation, the data suggests no clear link between sightings and moon phases, challenging the folklore that moonlight affects Bigfoot's visibility or activity."
+                detail: 'This treemap visualizes the density of audio evidence and image evidence of haunted sightings by US state. 
             },
             'detected_objects_donut': {
                 detail: 'This donut visualizes the frequency of detected objects from the associated images for each haunted place description.'
-                // insight: "There's a noticeable pattern of Bigfoot sightings in proximity to national parks, which could suggest either a tendency of Bigfoot to inhabit these wild, less disturbed areas or a higher likelihood of people reporting sightings in such regions due to outdoor or camping activities."
             },
             'entity_relationships_sankey': {
                 detail: 'This diagram shows the relationships between US Regions where haunted sightings were reported, and SpaCY entities discussed in the report.'
-                // insight: 'Washington state leads in Bigfoot sightings, implying either a genuine hotspot for Bigfoot activity or a regional cultural tendency to report sightings. This treemap helps to quickly identify states with higher reports and might be useful in targeting further research and investigation.'
             }
         };
     // Function to show or hide the visualization menu
@@ -299,7 +294,6 @@
                 <div class="analysis-textbox">
                     <h4>Description</h4>
 		    <p>${insight.detail}</p>
-                    // <strong>Insight:</strong> <p>${insight.insight}</p>
                 </div>
             `;
             var visualizationURL = `https://18rberry.github.io/dsci550_hw3/${visualizationName}.html`;
