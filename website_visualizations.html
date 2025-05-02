@@ -303,7 +303,7 @@
             var iframeHTML = `<iframe src="${visualizationURL}" width="100%" height="600" frameborder="0"></iframe>`;
             
 			// Include the caves map image for the "sightings_heatmap" visualization
-			var caveMapHTML = visualizationName === "sightings_heatmap" ? `<img src="https://nguyenlamvu88.github.io/dsci550_assignment_3_visualizations/us_cave_karst.png" style="width: 70%; margin-top: 20px;" alt="Map of Caves in the US">` : "";
+			// var caveMapHTML = visualizationName === "sightings_heatmap" ? `<img src="https://nguyenlamvu88.github.io/dsci550_assignment_3_visualizations/us_cave_karst.png" style="width: 70%; margin-top: 20px;" alt="Map of Caves in the US">` : "";
             
 			// Update the container's innerHTML order so analysis is on top
             visualizationContainer.innerHTML = analysisHTML + iframeHTML + caveMapHTML;
