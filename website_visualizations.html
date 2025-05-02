@@ -292,13 +292,12 @@
     function loadVisualization(visualizationName) {
             var visualizationContainer = document.getElementById("visualizationContainer");
             var insight = insights[visualizationName];
-            var analysisHTML = `
-                <div class="analysis-textbox">
-                    <h4>Description</h4>
-                    // <p>${insight.detail}</p>
-                    <strong>Insight:</strong> <p>${insight.insight}</p>
-                </div>
-            `;
+            // var analysisHTML = `
+            //     <div class="analysis-textbox">
+            //         <h4>Description</h4>
+            //         <strong>Insight:</strong> <p>${insight.insight}</p>
+            //     </div>
+            // `;
             var visualizationURL = `https://18rberry.github.io/dsci550_hw3/${visualizationName}.html`;
 	    // var visualizationURL = `${visualizationName}.html`;
 	    
@@ -308,7 +307,7 @@
 			// var caveMapHTML = visualizationName === "sightings_heatmap" ? `<img src="https://nguyenlamvu88.github.io/dsci550_assignment_3_visualizations/us_cave_karst.png" style="width: 70%; margin-top: 20px;" alt="Map of Caves in the US">` : "";
             
 			// Update the container's innerHTML order so analysis is on top
-            visualizationContainer.innerHTML = analysisHTML + iframeHTML;
+            visualizationContainer.innerHTML = iframeHTML;
         }
 	</script>
 
